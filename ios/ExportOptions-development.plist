@@ -10,8 +10,8 @@
         <string>manual</string>
         <key>provisioningProfiles</key>
         <dict>
-            <key>me.kimmy.apps.flutter-template-ns</key>
-            <string>flutter-template-ns-dev</string>
+            <key>me.kimmy.apps.flutter-games-boilerplate</key>
+            <string>flutter-games-boilerplate-dev</string>
         </dict>
     </dict>
 </plist>

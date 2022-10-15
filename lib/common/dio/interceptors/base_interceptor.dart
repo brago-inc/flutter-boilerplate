@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_boilerplate/common/constants/constants.dart';
+import 'package:flutter_games_boilerplate/common/constants/constants.dart';
 
 class BaseInterceptor extends InterceptorsWrapper {
 

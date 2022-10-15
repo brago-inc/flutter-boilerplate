@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-import 'package:flutter_boilerplate/common/extensions/widget_nested_common.dart';
+import 'package:flutter_games_boilerplate/common/extensions/widget_nested_common.dart';
 
 /*
 示例代码：

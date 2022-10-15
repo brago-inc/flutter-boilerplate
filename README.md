@@ -63,7 +63,7 @@ This project relies on [flutter_localizations][flutter_localizations_link] and f
 3. Use the new string
 
 ```dart
-import 'package:flutter_boilerplate/l10n/l10n.dart';
+import 'package:flutter_games_boilerplate/l10n/l10n.dart';
 
 @override
 Widget build(BuildContext context) {

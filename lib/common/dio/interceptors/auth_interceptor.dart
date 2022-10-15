@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_boilerplate/app/app_manager.dart';
+import 'package:flutter_games_boilerplate/app/app_manager.dart';
 
 class AuthorizationInterceptor extends InterceptorsWrapper {
   @override
