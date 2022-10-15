@@ -143,7 +143,7 @@ jobs:
         working-directory: ${{ matrix.build_path }}
       - name: Compress build for macOS
         if: matrix.target == 'macOS'
-        run: ditto -c -k --sequesterRsrc --keepParent flutter_template_ns.app $GITHUB_WORKSPACE/flutter_boilerplate_${{ matrix.target }}.zip
+        run: ditto -c -k --sequesterRsrc --keepParent flutter_games_boilerplate.app $GITHUB_WORKSPACE/flutter_boilerplate_${{ matrix.target }}.zip
         working-directory: ${{ matrix.build_path }}
       - name: Compress build for Windows
         if: matrix.target == 'Windows'

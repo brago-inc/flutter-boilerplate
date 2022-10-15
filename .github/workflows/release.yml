@@ -342,7 +342,7 @@ jobs:
 
       # Package the build.
       - name: Compress build for macOS
-        run: ditto -c -k --sequesterRsrc --keepParent flutter_template_ns.app $GITHUB_WORKSPACE/flutter_boilerplate_macos.zip
+        run: ditto -c -k --sequesterRsrc --keepParent flutter_games_boilerplate.app $GITHUB_WORKSPACE/flutter_boilerplate_macos.zip
         working-directory: build/macos/Build/Products/Release
 
       - uses: actions/upload-artifact@v3
