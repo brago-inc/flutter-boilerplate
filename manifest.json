@@ -1,6 +1,6 @@
 {
-    "name": "flutter_template_ns",
-    "short_name": "flutter_template_ns",
+    "name": "flutter_games_boilerplate",
+    "short_name": "flutter_games_boilerplate",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
