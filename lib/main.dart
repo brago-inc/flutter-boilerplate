@@ -13,6 +13,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:logging/logging.dart';
+import 'package:window_manager/window_manager.dart';
 import 'package:provider/provider.dart';
 
 import 'src/ads/ads_controller.dart';
@@ -38,7 +39,17 @@ import 'src/style/palette.dart';
 import 'src/style/snack_bar.dart';
 import 'src/win_game/win_game_screen.dart';
 
+bool get isDesktop {
+  if (kIsWeb) return false;
+  return [
+    TargetPlatform.windows,
+    TargetPlatform.linux,
+    TargetPlatform.macOS,
+  ].contains(defaultTargetPlatform);
+}
+
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   // To enable Firebase Crashlytics, uncomment the following lines and
   // the import statements at the top of this file.
   // See the 'Crashlytics' section of the main README.md file for details.
@@ -55,6 +66,25 @@ Future<void> main() async {
   //     debugPrint("Firebase couldn't be initialized: $e");
   //   }
   // }
+
+  if (isDesktop) {
+    await WindowManager.instance.ensureInitialized();
+    await windowManager.waitUntilReadyToShow().then((_) async {
+      // if (Platform.isWindows) {
+      //   await windowManager.setTitleBarStyle(
+      //     TitleBarStyle.hidden,
+      //     windowButtonVisibility: false,
+      //   );
+      // }
+
+      // await windowManager.setSize(const Size(755, 545));
+      // await windowManager.setMinimumSize(const Size(755, 545));
+      await windowManager.center();
+      await windowManager.show();
+      await windowManager.setPreventClose(true);
+      await windowManager.setSkipTaskbar(false);
+    });
+  }
 
   await guardWithCrashlytics(
     guardedMain,
