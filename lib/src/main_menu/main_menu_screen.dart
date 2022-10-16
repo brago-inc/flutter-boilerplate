@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
+import 'package:window_manager/window_manager.dart';
 
 import '../audio/audio_controller.dart';
 import '../audio/sounds.dart';
@@ -13,8 +14,26 @@ import '../settings/settings.dart';
 import '../style/palette.dart';
 import '../style/responsive_screen.dart';
 
-class MainMenuScreen extends StatelessWidget {
+class MainMenuScreen extends StatefulWidget {
   const MainMenuScreen({super.key});
+
+  @override
+  State<MainMenuScreen> createState() => _MainMenuScreenState();
+}
+
+class _MainMenuScreenState extends State<MainMenuScreen> with WindowListener {
+
+  @override
+  void initState() {
+    windowManager.addListener(this);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    windowManager.removeListener(this);
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +75,7 @@ class MainMenuScreen extends StatelessWidget {
               _hideUntilReady(
                 ready: gamesServicesController.signedIn,
                 child: ElevatedButton(
-                  onPressed: () => gamesServicesController.showAchievements(),
+                  onPressed: gamesServicesController.showAchievements,
                   child: const Text('Achievements'),
                 ),
               ),
@@ -64,7 +83,7 @@ class MainMenuScreen extends StatelessWidget {
               _hideUntilReady(
                 ready: gamesServicesController.signedIn,
                 child: ElevatedButton(
-                  onPressed: () => gamesServicesController.showLeaderboard(),
+                  onPressed: gamesServicesController.showLeaderboard,
                   child: const Text('Leaderboard'),
                 ),
               ),
@@ -81,7 +100,7 @@ class MainMenuScreen extends StatelessWidget {
                 valueListenable: settingsController.muted,
                 builder: (context, muted, child) {
                   return IconButton(
-                    onPressed: () => settingsController.toggleMuted(),
+                    onPressed: settingsController.toggleMuted,
                     icon: Icon(muted ? Icons.volume_off : Icons.volume_up),
                   );
                 },
@@ -117,6 +136,37 @@ class MainMenuScreen extends StatelessWidget {
         );
       },
     );
+  }
+
+  @override
+  Future<void> onWindowClose() async {
+    final _isPreventClose = await windowManager.isPreventClose();
+    if (_isPreventClose) {
+      await showDialog(
+        context: context,
+        builder: (_) {
+          return AlertDialog(
+            title: const Text('Confirm close'),
+            content: const Text('Are you sure you want to close this window?'),
+            actions: [
+              TextButton(
+                child: const Text('Yes'),
+                onPressed: () {
+                  Navigator.pop(context);
+                  windowManager.destroy();
+                },
+              ),
+              TextButton(
+                child: const Text('No'),
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+              ),
+            ],
+          );
+        },
+      );
+    }
   }
 
   static const _gap = SizedBox(height: 10);
