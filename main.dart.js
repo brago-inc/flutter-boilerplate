@@ -68718,7 +68718,7 @@ A.c_(a,!0,t._M)
 A.c_(a,!0,t.Px)
 s=A.c_(a,!0,t.Uh)
 r=A.c_(a,!0,t.OQ)
-q=A.lm(A.abx(B.K,-0.1,B.MT,o),o,o)
+q=A.lm(A.abx(B.K,-0.1,B.MV,o),o,o)
 p=A.a([A.wM(B.N8,new A.afu(r,a)),B.ct],t.p)
 p.push(A.wM(B.MX,new A.afv(a)))
 p.push(B.ct)
@@ -68759,7 +68759,7 @@ $3(a,b,c){return A.a13(null,A.a12(b?B.mI:B.BW),null,this.a.gaeh(),null)},
 $S:445}
 A.afz.prototype={
 $1(a){var s=this.a
-return new A.pQ(B.N3,B.N1,A.a([A.aaJ(B.MU,new A.afx(s),null),A.aaJ(B.MV,new A.afy(s),null)],t.p),null)},
+return new A.pQ(B.N3,B.N1,A.a([A.aaJ(B.MT,new A.afx(s),null),A.aaJ(B.MU,new A.afy(s),null)],t.p),null)},
 $S:446}
 A.afx.prototype={
 $0(){var s=this.a.c
@@ -76108,12 +76108,12 @@ B.M4=new A.t(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.LJ=new A.t(!0,B.k,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.MS=new A.e6(B.Ls,B.MB,B.Mk,B.Ka,B.Mc,B.Ll,B.MF,B.KB,B.L2,B.M7,B.K5,B.Mm,B.Ma,B.M4,B.LJ)
 B.w7=new A.At(1,"longestLine")
-B.w5=new A.t(!0,null,null,"Permanent Marker",null,null,55,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.MT=new A.cj("Flutter Game Template!",null,B.w5,B.dl,null,null,null,null,null)
 B.w8=new A.cj("Home",null,null,null,null,null,null,null,null)
-B.MU=new A.cj("Yes",null,null,null,null,null,null,null,null)
+B.MT=new A.cj("Yes",null,null,null,null,null,null,null,null)
 B.eF=new A.cj("Back",null,null,null,null,null,null,null,null)
-B.MV=new A.cj("No",null,null,null,null,null,null,null,null)
+B.MU=new A.cj("No",null,null,null,null,null,null,null,null)
+B.w5=new A.t(!0,null,null,"Permanent Marker",null,null,55,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.MV=new A.cj("Flutter Game Boilerplate!",null,B.w5,B.dl,null,null,null,null,null)
 B.MX=new A.cj("Settings",null,null,null,null,null,null,null,null)
 B.LB=new A.t(!0,B.k,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.MY=new A.cj("Go to home page",null,B.LB,null,null,null,null,null,null)
