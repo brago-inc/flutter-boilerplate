@@ -50,7 +50,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> with WindowListener {
           child: Transform.rotate(
             angle: -0.1,
             child: const Text(
-              'Flutter Game Template!',
+              'Flutter Game Boilerplate!',
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontFamily: 'Permanent Marker',

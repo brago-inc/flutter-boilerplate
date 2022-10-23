@@ -53,8 +53,6 @@ dependencies:
   pretty_dio_logger: ^1.2.0-beta-1
   provider: ^6.0.2
   sentry_flutter: ^6.11.2
-  settings_ui:
-    path: dependencies/settings_ui
   shared_preferences: ^2.0.13
   synchronized: ^3.0.0+3
   trending_common:
