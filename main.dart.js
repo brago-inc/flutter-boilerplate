@@ -6925,9 +6925,9 @@ _.a=a
 _.b=b
 _.d=_.c=0
 _.$ti=c},
+X0:function X0(){},
 X1:function X1(){},
 Xg:function Xg(a){this.a=a},
-X0:function X0(){},
 lz:function lz(a){this.a=a},
 au4(a){return A.amc("no-app","No Firebase App '"+a+"' has been created - call Firebase.initializeApp()","core")},
 amc(a,b,c){return new A.wV(c,b,a)},
@@ -34698,9 +34698,9 @@ i=l*2+2}p=i-1
 if(p<q){k=j.t6(p)
 if(s.$2(a,k)>0){B.b.l(j.b,b,k)
 b=p}}B.b.l(j.b,b,a)}}
+A.X0.prototype={}
 A.X1.prototype={}
 A.Xg.prototype={}
-A.X0.prototype={}
 A.lz.prototype={
 k(a,b){var s,r
 if(b==null)return!1
