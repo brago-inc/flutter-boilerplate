@@ -63,7 +63,7 @@ const RESOURCES = {
 "assets/assets/music/Mr_Smith-Sunday_Solitude.mp3": "5fb1f2fbf4314eb5df35b62706942698",
 "assets/assets/music/Mr_Smith-Sonorus.mp3": "9353b7bb732002062e2c9107a95f3d2a",
 "assets/assets/music/Mr_Smith-Azul.mp3": "9463595498dc48b3d3d6805fb7c19dc7",
-"assets/NOTICES": "6b6f4207458212b4357dec4587d03685",
+"assets/NOTICES": "82f9d63b92277036e650420a37ef4f73",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/FontManifest.json": "407b6599c8a840492491f6b7f7d17bd8",
 "assets/AssetManifest.json": "1a5a2147c33c96553ba74234ceac4ff6",
@@ -74,8 +74,8 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
-"index.html": "94171667878cd477ea5767851bb2b183",
-"/": "94171667878cd477ea5767851bb2b183",
+"index.html": "54cab141dd82781ce87f92c0b5ba0ccf",
+"/": "54cab141dd82781ce87f92c0b5ba0ccf",
 "version.json": "9c61f70841d3dbe75e097dfac27f8310",
 "manifest.json": "b52ed22202d846a984c1cdabf73f1b1c",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
@@ -100,7 +100,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"main.dart.js": "0c3bbb519e99b3205102fa4d02306674"
+"main.dart.js": "62de2a3c66899375dd030b4057c4d0ee"
 };
 
 // The application shell files that are downloaded before a service worker can
