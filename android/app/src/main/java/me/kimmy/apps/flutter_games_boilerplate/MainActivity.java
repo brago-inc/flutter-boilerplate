@@ -1,4 +1,4 @@
-package me.kimmy.apps.flutter_games_boilerplate;
+package me.kimmy.apps.flutter_boilerplate;
 
 import io.flutter.embedding.android.FlutterActivity;
 

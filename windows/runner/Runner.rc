@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "me.kimmy.apps.template.flutter" "\0"
-            VALUE "FileDescription", "flutter_games_boilerplate" "\0"
+            VALUE "FileDescription", "flutter_boilerplate" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_games_boilerplate" "\0"
+            VALUE "InternalName", "flutter_boilerplate" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 me.kimmy.apps.template.flutter. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_games_boilerplate.exe" "\0"
-            VALUE "ProductName", "flutter_games_boilerplate" "\0"
+            VALUE "OriginalFilename", "flutter_boilerplate.exe" "\0"
+            VALUE "ProductName", "flutter_boilerplate" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

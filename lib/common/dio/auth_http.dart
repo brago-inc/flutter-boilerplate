@@ -1,5 +1,5 @@
-import 'package:flutter_games_boilerplate/common/dio/base_http.dart';
-import 'package:flutter_games_boilerplate/common/dio/interceptors/auth_interceptor.dart';
+import 'package:flutter_boilerplate/common/dio/base_http.dart';
+import 'package:flutter_boilerplate/common/dio/interceptors/auth_interceptor.dart';
 
 final AuthHttp authHttp = AuthHttp();
 

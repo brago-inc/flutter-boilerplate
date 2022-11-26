@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_games_boilerplate/app/app_manager.dart';
-import 'package:flutter_games_boilerplate/common/dio/base_http.dart';
+import 'package:flutter_boilerplate/app/app_manager.dart';
+import 'package:flutter_boilerplate/common/dio/base_http.dart';
 
 final LoginHttp loginHttp = LoginHttp();
 
