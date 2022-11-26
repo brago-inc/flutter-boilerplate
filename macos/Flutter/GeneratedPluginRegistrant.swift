@@ -6,7 +6,7 @@ import FlutterMacOS
 import Foundation
 
 import audioplayers_darwin
-import connectivity_plus_macos
+import connectivity_plus
 import dynamic_color
 import firebase_core
 import firebase_crashlytics
