@@ -21,7 +21,7 @@ const RESOURCES = {
 "splash/img/light-1x.png": "ab1cbcce80981cd3e51785e663fad95b",
 "splash/splash.js": "123c400b58bea74c1305ca3ac966748d",
 "splash/style.css": "cbfe62a2c7e6af0e29b484d30610f3cf",
-"main.dart.js": "0cdbf6de8a14442ea6b7e24172b47b30",
+"main.dart.js": "2c5e08c81976e28d6a9cd02a5563ab03",
 "canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
@@ -97,8 +97,8 @@ const RESOURCES = {
 "assets/assets/music/Mr_Smith-Sonorus.mp3": "9353b7bb732002062e2c9107a95f3d2a",
 "assets/assets/Permanent_Marker/PermanentMarker-Regular.ttf": "c863f8028c2505f92540e0ba7c379002",
 "assets/NOTICES": "1f48584fd2bcd2df3b066f15e6647bb6",
-"index.html": "a8b947078a7c07e426c300be0693b235",
-"/": "a8b947078a7c07e426c300be0693b235",
+"index.html": "c133ec4580f7c5355a0decb2f75921e7",
+"/": "c133ec4580f7c5355a0decb2f75921e7",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "404ac7ee9da5da8572940346f863bd6d"
 };
