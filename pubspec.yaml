@@ -69,7 +69,7 @@ dependencies:
     path: packages/local_storage_trending_repository_middleware
   trending_repository:
     path: packages/trending_repository
-  window_manager: ^0.2.7
+  window_manager: ^0.3.0
 
   # If you don't need one of the following dependencies,
   # delete the relevant line below, and get rid of any Dart code
