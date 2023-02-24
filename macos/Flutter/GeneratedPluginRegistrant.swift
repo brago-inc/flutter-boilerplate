@@ -17,7 +17,7 @@ import package_info_plus
 import path_provider_foundation
 import screen_retriever
 import sentry_flutter
-import shared_preferences_macos
+import shared_preferences_foundation
 import window_manager
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
