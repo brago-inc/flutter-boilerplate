@@ -14,7 +14,6 @@ class ErrorInterceptor extends InterceptorsWrapper {
       return handler.reject(
         DioError(
           requestOptions: options,
-          type: DioErrorType.other,
           response: Response(
             requestOptions: options,
             data: ResponseResult(
