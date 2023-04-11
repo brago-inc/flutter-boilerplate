@@ -31,7 +31,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   adaptive_dialog: ^1.8.2
-  audioplayers: ^3.0.1
+  audioplayers: ^4.0.0
   bloc: ^8.1.1
   connectivity_plus: ^3.0.3
   cupertino_icons: ^1.0.5
