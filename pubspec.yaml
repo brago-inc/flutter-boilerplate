@@ -33,7 +33,7 @@ dependencies:
   adaptive_dialog: ^1.8.2
   audioplayers: ^3.0.1
   bloc: ^8.1.1
-  connectivity_plus: ^3.0.3
+  connectivity_plus: ^4.0.0
   cupertino_icons: ^1.0.5
   easy_refresh: ^3.3.1
   fluent_ui: ^4.3.0
